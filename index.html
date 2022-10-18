@@ -19,7 +19,7 @@
             color: yellow;
             text-align: center;
             margin-top: 120px;
-            margin-left: 30%;
+            /*margin-left: 30%;*/
         }
         .tic-tac-toe {
             display: grid;
@@ -61,9 +61,18 @@
             height: 50px;
         }
 
-        @media all and (max-device-width: 450px) and (max-device-height: 896px) {
+        @media all and (max-width: 1400px){
+            h1 {
+                margin-left: 30%;
+            }
+        }
+
+        @media all and (max-device-width: 450px) and (max-device-height: 915px) {
             .container {
                 padding-top: 30vh;
+            }
+            h1 {
+                margin-left: 30%;
             }
         }
 
